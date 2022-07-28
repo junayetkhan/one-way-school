@@ -1,5 +1,53 @@
+.container{
+    margin-bottom: 20px;
+}
+/* navbar */
 #navbarSupportedContent{
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 700;
     color: black;
-    margin: 0 25px;
+    margin: 0 35px;
+    
+}
+/* navbar */
+
+/* slider part */
+.carousel-inner img{
+    height: 700px;
+    width: 100%;
+    
+}
+.carousel-item::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.item-position{
+    top: 260px;
+}
+/* slider part */
+.custom-mt-5{
+    margin-top: 6rem;
+}
+
+.company img{
+    width: 130px;
+}
+.institution img{
+    width: 100%;
+    height: 550px;
+}
+.review img{
+    width: 60px;
+}
+.left-arrow{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    left: -30px;
 }
