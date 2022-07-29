@@ -37,9 +37,7 @@
     top: 260px;
 }
 /* slider part */
-/* .custom-mt-5{
-    margin-top: 6rem;
-} */
+
 
 .company img{
     width: 130px;
@@ -51,7 +49,7 @@
 .review img{
     width: 60px;
 }
-/* .left-arrow{
+.left-arrow{
     height: 50px;
     width: 50px;
     text-align: center;
@@ -59,5 +57,5 @@
     background-color: blue;
     border-radius: 50%;
     left: -30px;
-} */
+}
 
